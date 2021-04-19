@@ -1,0 +1,14 @@
+targets:
+  $default:
+    builders:
+      model_mapper_generator:
+        enabled: true
+
+builders:
+  model_mapper_generator:
+    import: "package:model_mapper_generator/builder.dart"
+    builder_factories: ["modelMapperBuilder"]
+    build_extensions: { ".dart": [".model_mapper.g.part"] }
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]
