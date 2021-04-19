@@ -37,14 +37,14 @@ packages:
     source: hosted
     version: "2.1.0"
   build:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: build
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.0"
   build_config:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: build_config
       url: "https://pub.flutter-io.cn"
@@ -114,7 +114,7 @@ packages:
     source: hosted
     version: "0.3.0"
   code_builder:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: code_builder
       url: "https://pub.flutter-io.cn"
@@ -256,9 +256,9 @@ packages:
   model_mapper_generator:
     dependency: "direct dev"
     description:
-      path: "../model_mapper_generator"
-      relative: true
-    source: path
+      name: model_mapper_generator
+      url: "https://pub.flutter-io.cn"
+    source: hosted
     version: "0.1.0"
   node_preamble:
     dependency: transitive
@@ -338,7 +338,7 @@ packages:
     source: hosted
     version: "1.0.1"
   source_gen:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: source_gen
       url: "https://pub.flutter-io.cn"

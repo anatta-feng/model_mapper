@@ -1,3 +1,7 @@
+## 0.1.2
+
+Remove unused dependencies.
+
 ## 0.1.1
 
 Fix example error.
