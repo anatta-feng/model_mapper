@@ -259,7 +259,7 @@ packages:
       name: model_mapper_generator
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.1.0"
+    version: "0.1.1"
   node_preamble:
     dependency: transitive
     description:

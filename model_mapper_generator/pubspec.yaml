@@ -1,6 +1,6 @@
 name: model_mapper_generator
 description: Intelligent object mapping for Dart.
-version: 0.1.1
+version: 0.1.2
 homepage: https://github.com/T-Oner/model_mapper
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -10,7 +10,7 @@ dependencies:
   build: ^2.0.0
   build_config: ^0.4.7
   source_gen: ^1.0.0
-  code_builder: ^3.7.0
+  code_builder: ^4.0.0
   json_annotation: ^4.0.0
   model_mapper: ^0.1.2
 
